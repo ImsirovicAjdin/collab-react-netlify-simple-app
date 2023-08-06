@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Button from 'react-bootstrap/Button';
 import Navigation from "./components/Navigation";
 
 
@@ -15,7 +14,6 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-        <Button variant="primary">Primary</Button>
     </div>;
 }
 
