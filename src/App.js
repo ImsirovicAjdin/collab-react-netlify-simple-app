@@ -1,6 +1,6 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 function App() {
   return <div className="App">
     <h1>App component works!</h1>
-    <Navbar />
+    <Navigation />
     <Hero />
     <Projects />
     <Contact />
